@@ -213,7 +213,7 @@ function initMsal(){
     auth:{
       clientId: CLIENT_ID,
       authority: `https://login.microsoftonline.com/${TENANT_ID}`,
-      redirectUri: window.location.origin + window.location.pathname,
+      redirectUri: 'https://willinghamrobert84-del.github.io/warehouse-dashboard/',
     },
     cache:{ cacheLocation:'localStorage', storeAuthStateInCookie:true }
   });
