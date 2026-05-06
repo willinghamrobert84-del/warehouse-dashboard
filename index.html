@@ -214,7 +214,8 @@ function initMsal(){
     auth:{
       clientId: CLIENT_ID,
       authority: `https://login.microsoftonline.com/${TENANT_ID}`,
-      redirectUri: 'https://willinghamrobert84-del.github.io/warehouse-dashboard/',
+      redirectUri: 'https://willinghamrobert84-del.github.io/warehouse-dashboard',
+      postLogoutRedirectUri: 'https://willinghamrobert84-del.github.io/warehouse-dashboard',
     },
     cache:{ cacheLocation:'localStorage', storeAuthStateInCookie:true }
   });
